@@ -9,7 +9,22 @@
     /></a>
   </div>
   <div class="intro-div">
-    <h3>👋 I'm Seth, a computer scientist from Joplin, Missouri.</h3>
+    <h3>
+      👋 I'm Seth, a
+      <span *ngIf="currentHeaderIndex == 0" class="fade-in-text">{{
+        currentHeaderOption
+      }}</span>
+      <span *ngIf="currentHeaderIndex == 1" class="fade-in-text">{{
+        currentHeaderOption
+      }}</span>
+      <span *ngIf="currentHeaderIndex == 2" class="fade-in-text">{{
+        currentHeaderOption
+      }}</span>
+      <span *ngIf="currentHeaderIndex == 3" class="fade-in-text">{{
+        currentHeaderOption
+      }}</span>
+      from Joplin, Missouri.
+    </h3>
   </div>
   <div class="right-spacer"></div>
 </div>
