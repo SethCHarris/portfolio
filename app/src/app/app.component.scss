@@ -1,0 +1,30 @@
+.app-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "left-spacer logo-div right-spacer"
+    "left-spacer center right-spacer";
+  .left-spacer {
+    grid-area: left-spacer;
+  }
+  .right-spacer {
+    grid-area: right-spacer;
+  }
+  .logo-div {
+    grid-area: logo-div;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    img {
+      width: 40px;
+      height: auto;
+      cursor: pointer;
+    }
+  }
+}
+
+.debug {
+  border: 1px solid red;
+}
