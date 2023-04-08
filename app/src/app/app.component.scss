@@ -4,12 +4,22 @@
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "left-spacer logo-div right-spacer"
-    "left-spacer center right-spacer";
+    "left-spacer intro-div right-spacer";
   .left-spacer {
     grid-area: left-spacer;
   }
   .right-spacer {
     grid-area: right-spacer;
+  }
+  .intro-div {
+    grid-area: intro-div;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    h3 {
+      font-weight: 100;
+    }
   }
   .logo-div {
     grid-area: logo-div;
