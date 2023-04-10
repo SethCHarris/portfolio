@@ -1,0 +1,12 @@
+.picture-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 2rem 1rem;
+  img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    box-shadow: 12px 12px 2px 1px rgba(242, 169, 0, 1);
+  }
+}
