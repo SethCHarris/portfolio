@@ -1,5 +1,26 @@
 <div class="languages-wrapper">
-  <img src="../../assets/python.png" />
-  <img src="../../assets/java.jpg" />
-  <img src="../../assets/javascript.png" />
+  <div class="header-text">
+    I'm familiar with a couple of programming languages.
+  </div>
+  <div class="images">
+    <span (click)="navigateLeftClicked()" class="nav"><</span>
+    <span class="fadeInLeft">
+      <img
+        id="image-0"
+        *ngIf="selectedImage == 0"
+        src="../../assets/python.png"
+      />
+      <img
+        id="image-1"
+        *ngIf="selectedImage == 1"
+        src="../../assets/java.jpg"
+      />
+      <img
+        id="image-2"
+        *ngIf="selectedImage == 2"
+        src="../../assets/javascript.png"
+      />
+    </span>
+    <span (click)="navigateRightClicked()" class="nav">></span>
+  </div>
 </div>

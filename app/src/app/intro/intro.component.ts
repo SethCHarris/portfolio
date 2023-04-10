@@ -16,7 +16,5 @@ export class IntroComponent {
 
   updateIntroTextIndex() {
     this.currentIntroTextIndex = (this.currentIntroTextIndex + 1) % 4;
-    console.log(this.currentIntroTextIndex);
-    console.log('running');
   }
 }
