@@ -1,3 +1,12 @@
 <div class="intro-wrapper">
-  👋 I'm Seth from Joplin, Missouri. I'm a computer scientist.
+  <div class="hello-text">
+    <span>👋&nbsp;</span> I'm Seth from Joplin, Missouri. I'm a
+  </div>
+  <div class="changing-text">
+    &nbsp;
+    <span *ngIf="currentIntroTextIndex == 0">computer scientist.</span>
+    <span *ngIf="currentIntroTextIndex == 1">problem solver.</span>
+    <span *ngIf="currentIntroTextIndex == 2">tech enthusiast.</span>
+    <span *ngIf="currentIntroTextIndex == 3">programmer.</span>
+  </div>
 </div>
