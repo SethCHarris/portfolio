@@ -1,1 +1,5 @@
-<div class="thanks-wrapper">Thanks for stopping by!</div>
+<div *ngIf="totalVisitorsWithSuffix" class="thanks-wrapper">
+  Thanks for stopping by! You were my<span
+    >&nbsp;{{ totalVisitorsWithSuffix }}&nbsp;</span
+  >visitor.
+</div>
