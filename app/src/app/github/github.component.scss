@@ -1,6 +1,18 @@
 .github-wrapper {
-  img {
-    width: 96px;
-    height: 96px;
+  .header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 125%;
+    margin: 1rem;
+  }
+  .github-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 96px;
+      height: 96px;
+    }
   }
 }
