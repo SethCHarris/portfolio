@@ -11,6 +11,7 @@ import { GithubComponent } from './github/github.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { SnakeComponent } from './snake/snake.component';
 import { FooterComponent } from './footer/footer.component';
+import { SatoshiComponent } from './satoshi/satoshi.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     GithubComponent,
     ThanksComponent,
     SnakeComponent,
-    FooterComponent
+    FooterComponent,
+    SatoshiComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,16 @@
+.snake-wrapper {
+  .header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 125%;
+    margin: 1rem;
+  }
+  .snake-game {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

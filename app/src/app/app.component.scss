@@ -10,7 +10,8 @@
     "left-spacer github right-spacer"
     "left-spacer thanks right-spacer"
     "left-spacer snake right-spacer"
-    "left-spacer footer right-spacer";
+    "left-spacer footer right-spacer"
+    "left-spacer satoshi right-spacer";
 
   .intro {
     grid-area: intro;
@@ -42,6 +43,10 @@
 
   .footer {
     grid-area: footer;
+  }
+
+  .satoshi {
+    grid-area: satoshi;
   }
 
   .left-spacer {
