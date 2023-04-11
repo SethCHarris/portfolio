@@ -13,6 +13,10 @@
     img {
       width: 96px;
       height: 96px;
+      transition: transform 0.5s ease;
+    }
+    img:hover {
+      transform: scale(1.1);
     }
   }
 }
