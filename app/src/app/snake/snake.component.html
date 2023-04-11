@@ -1,4 +1,18 @@
 <div class="snake-wrapper">
   <div class="header-text">How about a quick game of 🐍?</div>
-  <div class="snake-game">🐍</div>
+  <div class="snake-start">
+    <img
+      (click)="startGame()"
+      *ngIf="!gameStarted"
+      src="../../assets/play.png"
+    />
+    <div *ngIf="gameStarted" class="snake-game">
+      <div class="scoreboard">SCORE: 0</div>
+      <div class="gameboard">
+        <div *ngFor="let boardPiece of boardHeight">
+          <div class="gameboard-piece"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

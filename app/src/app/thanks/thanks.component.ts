@@ -10,7 +10,7 @@ export class ThanksComponent {
   public totalVisitorsWithSuffix: string = '';
 
   ngOnInit() {
-    this.totalVisitors = Math.floor(Math.random() * 10);
+    this.totalVisitors = Math.floor(Math.random() * 1000);
     this.totalVisitorsWithSuffix = this.getSuffixOfNumber(this.totalVisitors);
   }
 
